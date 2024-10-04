@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./info.css">
+    <title>Info</title>
+</head>
+<body>
+    <nav>Руководство по использованию</nav>
+    <div class="info"><h3>ДЛЯ АДМИНА:</h3> Вы имеете доступ ко всем облостям работы клуба Motor, вы можете заказывать товары, вести учёт склада,
+        пополнение в бар, составлять расписание групп, распределять зарплату и нанимать рабочих. В каждой вкладке вы можете добавлять 
+        новые записи, редактировать старые, удалять не нужные. Также вкладки Доставки, Склад и Бар взаимосвязаны, при новой поставке, 
+        товар будет автоматически добавлятся на склад, а если вы доавите товар на барную стойку, то будет учитываться количество и вам
+        неприётся постояно сверять данные. Сумма тоже вычитывается автоматически. Для найма новых содрудников, зайдите во вкладку 
+        Найм Рабочих и поменяйте роль Клиента на роль Сотрудник или Админ.
+    </div>
+    <div class="info"><h3>ДЛЯ СОТРУДНИКА:</h3> Вы имеете доступ к основным облостям работы клуба Motor, вы можете заказывать товары, вести учёт склада,
+        пополнение в бар. В каждой вкладке вы можете добавлять 
+        новые записи, редактировать старые, удалять не нужные. Также вкладки Доставки, Склад и Бар взаимосвязаны, при новой поставке, 
+        товар будет автоматически добавлятся на склад, а если вы доавите товар на барную стойку, то будет учитываться количество и вам
+        неприётся постояно сверять данные. Сумма тоже вычитывается автоматически. 
+    </div>
+    <div class="info"><h3>ДЛЯ КЛИЕНТА:</h3> Для вашего удобства мы сделали возможность заказывать столики, смотреть меню бара, расписание групп 
+        и покупку билетов через наше приложение. Тем самым вам не придётся звонить и ждать на линии ответа, а просто и бытро посмотреть
+        информацию! 
+    </div>
+    
+    <div class="about">Мы и разработчик в соц-сетях</div>
+    <div class='links'>
+        <a href='https://www.instagram.com/motor_club_almaty/'><img class='inst' src="./Instagram.png" /></a>
+        <a href='https://vk.com/motor_club_almaty'><img src="./Vk.png" /></a>
+        <a href="https://github.com/vladgerman27"><img class="github" src="./github.png"/></a>
+    </div>
+
+    <section class="slider-wrapper">
+        <button class="slide-arrow" id="slide-arrow-prev" onclick="handlePrevButtonClick()">&#8249;</button>
+        <button class="slide-arrow" id="slide-arrow-next" onclick="handleNextButtonClick()">&#8250;</button>
+        <ul class="slides-container" id="slides-container">
+          <li class="slide"></li>
+          <li class="slide"></li>
+          <li class="slide"></li>
+          <li class="slide"></li>
+          <li class="slide"></li>
+        </ul>
+    </section>
+
+    <script src="./info.js"></script>
+</body>
+</html>
